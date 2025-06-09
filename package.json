@@ -1,16 +1,24 @@
 {
   "name": "porterverse",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Alepla/porterverse.git",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "author": "Alepla <aleplacambra@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "three": "^0.177.0"
+    "gsap": "^3.13.0",
+    "three": "^0.177.0",
+    "three-stdlib": "^2.36.0"
   },
   "devDependencies": {
     "@types/three": "^0.177.0",
-    "typescript": "^5.8.3",
-    "vite": "^6.3.5"
+    "typescript": "^5.4.5",
+    "vite": "^6.3.5",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }

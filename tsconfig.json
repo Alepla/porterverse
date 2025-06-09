@@ -1,14 +1,16 @@
 {
     "compilerOptions": {
-      "target": "ES6",
+      "target": "ESNext",
       "module": "ESNext",
-      "moduleResolution": "node",
+      "baseUrl": "./src",
+      "moduleResolution": "Node",
       "strict": true,
       "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true,
-      "outDir": "dist",
-      "baseUrl": "./src"
-    },
-    "include": ["src"]
+      "jsx": "preserve",
+      "resolveJsonModule": true,
+      "paths": {
+        "@/*": ["*"]
+      }
+    }
   }
   

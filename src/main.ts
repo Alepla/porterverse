@@ -1,19 +1,22 @@
+import * as THREE from 'three';
 import { scene } from './core/scene';
 import { camera, updateCameraOnResize } from './core/camera';
 import { renderer } from './core/renderer';
 import { controls } from './core/controls';
 import { addLights } from './core/lighting';
-import { createZones } from './zones/zones';
-import { setupClickHandler } from './input/click-handler';
 import { animate } from './core/loop';
+import { createZones } from './zones/create-zones';
+import { setupClickHandler } from './zones/click-handler';
 
-// Setup
 addLights();
-createZones();
-setupClickHandler();
+
+const zoneMeshes = createZones();
+zoneMeshes.forEach(mesh => scene.add(mesh));
+
+setupClickHandler(zoneMeshes);
+
 animate();
 
-// Resize support
 window.addEventListener('resize', () => {
   updateCameraOnResize();
   renderer.setSize(window.innerWidth, window.innerHeight);

@@ -2,7 +2,7 @@ export interface ZoneData {
     name: string;
     position: [number, number, number];
     color: number;
-    link: string;
+    link?: string;
   }
   
   export const zones: ZoneData[] = [
@@ -31,4 +31,3 @@ export interface ZoneData {
         link: "https://www.youtube.com/watch?v=CzJbz9qSsd0"
     }
   ];
-  

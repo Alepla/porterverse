@@ -9,7 +9,7 @@
 
 **PorterVerse** is an interactive 3D tribute experience inspired by the music, themes, and aesthetics of **Porter Robinson**.
 
-Explore different zones based on *Worlds*, *Nurture*, and *Virtual Self* as part of an atmospheric, ambient journey. Each zone connects to curated videos, visuals, and experiences that celebrate Porter’s artistic world.
+Explore different zones based on *Worlds*, *Nurture*, *SMILE! :D* and *Virtual Self* as part of an atmospheric, ambient journey. Each zone connects to curated videos, visuals, and experiences that celebrate Porter’s artistic world.
 
 ---
 
